@@ -1,5 +1,5 @@
 Website to scrape:
-https://research.com/university-rankings/computer-science
+https://www.topuniversities.com/university-rankings/world-university-rankings/2023
 
 ChromeDriver link:
 https://chromedriver.chromium.org/
