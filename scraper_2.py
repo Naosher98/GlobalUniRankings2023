@@ -80,9 +80,11 @@ def main():
                 row_contents.append(mem)
                 lnk = row.find_element(By.TAG_NAME, 'a')
                 link_contents.append(lnk.get_attribute('href'))
-        location = driver.find_element(By.CLASS_NAME, 'tab-content') 
-        element = location.find_element(By.CSS_SELECTOR, 'a.page-link.next')
-        
+        try:
+            location = driver.find_element(By.CLASS_NAME, 'tab-content') 
+            element = location.find_element(By.CSS_SELECTOR, 'a.page-link.next')
+        except Exception:
+            element =None
         if element != None:
             actions = ActionChains(driver)
             actions.click(element).perform()

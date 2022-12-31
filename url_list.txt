@@ -1,0 +1,8 @@
+Website to scrape:
+https://research.com/university-rankings/computer-science
+
+ChromeDriver link:
+https://chromedriver.chromium.org/
+
+Selenium documentation:
+https://selenium-python.readthedocs.io/
