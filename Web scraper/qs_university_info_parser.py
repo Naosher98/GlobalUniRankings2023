@@ -66,18 +66,18 @@ def page_items(df, driver, i):
         
             
     df = pd.DataFrame(page_contents)
-    df.to_csv(f"Data_new{i}.csv")
+    df.to_csv(f"Data\Data_new{i}.csv")
     # driver.close()
     return
 
 def main():
     webdriver_path = "C:\Program Files (x86)\WebDriver\chromedriver.exe"
     driver = webdriver.Chrome(webdriver_path)
-    df = pd.read_csv("D:\Work Station\Scraper\data_2.csv")
+    df = pd.read_csv("Data\Link.csv")
     
     
-    # df_1 = df.iloc[:250,:]
-    # page_items(df_1, driver, 1)
+    df_1 = df.iloc[:250,:]
+    page_items(df_1, driver, 1)
     
     df_2 = df.iloc[250:450,:]
     page_items(df_2, driver, 2)

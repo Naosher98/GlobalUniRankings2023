@@ -95,8 +95,8 @@ def main():
     df_2 = pd.DataFrame(link_contents)
     
     # Exporting the dataframes to CSV format
-    df_1.to_csv("data.csv")
-    df_2.to_csv("data_2.csv")
+    df_1.to_csv("Data\Data.csv")
+    df_2.to_csv("Data\Link.csv")
     driver.close()
     return
 if __name__ == "__main__":
