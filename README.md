@@ -8,27 +8,27 @@ In order to provide a comprehensive and up-to-date understanding of the leading 
 ## Visualization [Dashboard](https://public.tableau.com/app/profile/naosher.mustakim/viz/QSWorldUniversityRankings2023/Dashboard1?publish=yes) 
 
 ## Build from sources:
-1. Clone the repo 
+1. Clone the repository:
 ```bash
 git clone https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023.git
 ```
-2. Intialize and activate virtual environment
+2. Initialize and activate a virtual environment:
 ```bash
 virtualenv --no-site-packages  venv
 source venv/bin/activate
 ```
-3. Install dependencies
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
-5. Run the qs_ranking_scraper
+5. Run the `qs_ranking_scraper` script:
 ```bash
 python Web scraper\qs_ranking_scraper.py --chromedriver_path <path_to_chromedriver>
 ```
-6. Run the qs_university_info_parser:
+6. Run the `qs_university_info_parser` script:
 ```bash
 python Web scraper\qs_university_info_parser.py --chromedriver_path <path_to_chromedriver>
 ```
-7. Run all cells of Data_Processing notebook
-8. You will get a file named "QS World University Rankings 2023 modified.csv" containing all the required fields.Alternatively, check our scraped data here: ["QS World University Rankings 2023 modified.csv" .](https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023/blob/main/Data/QS%20World%20University%20Rankings%202023%20modified.csv)
+7. Run all cells of the `Data_Processing` notebook. This will generate a file named "QS World University Rankings 2023 modified.csv" containing all the required fields. Alternatively, you can access the scraped data at ["QS World University Rankings 2023 modified.csv"](https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023/blob/main/Data/QS%20World%20University%20Rankings%202023%20modified.csv).
+
