@@ -22,5 +22,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
-5. Run the scraper
-6. You will get a file named "QS World University Rankings 2023 modified.csv" containing all the required fields.Alternatively, check our scraped data here: ["QS World University Rankings 2023 modified.csv" .](https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023/blob/main/Data/QS%20World%20University%20Rankings%202023%20modified.csv)
+5. Run the qs_ranking_scraper
+```bash
+python Web scraper\qs_ranking_scraper.py --chromedriver_path <path_to_chromedriver>
+```
+6. Run the qs_university_info_parser:
+```bash
+python Web scraper\qs_university_info_parser.py --chromedriver_path <path_to_chromedriver>
+```
+7. Run all cells of Data_Processing notebook
+8. You will get a file named "QS World University Rankings 2023 modified.csv" containing all the required fields.Alternatively, check our scraped data here: ["QS World University Rankings 2023 modified.csv" .](https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023/blob/main/Data/QS%20World%20University%20Rankings%202023%20modified.csv)
