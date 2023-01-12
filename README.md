@@ -7,3 +7,10 @@ In order to provide a comprehensive and up-to-date understanding of the leading 
 
 ## Visualization [Dashboard](https://public.tableau.com/app/profile/naosher.mustakim/viz/QSWorldUniversityRankings2023/Dashboard1?publish=yes) 
 
+## Build from sources:
+1. Clone the repo
+2. Intialize and activate virtual environment
+3. Install dependencies
+4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
+5. Run the scraper
+6. You will get a file named "QS World University Rankings 2023 modified.csv" containing all the required fields.Alternatively, check our scraped data here: ("QS World University Rankings 2023 modified.csv" .)[https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023/blob/main/Data/QS%20World%20University%20Rankings%202023%20modified.csv]
