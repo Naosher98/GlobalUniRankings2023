@@ -21,7 +21,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-4. Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
+4. Download Chrome WebDriver from https://chromedriver.chromium.org/downloads
 5. Run the `qs_ranking_scraper` script:
 ```bash
 python Web scraper\qs_ranking_scraper.py --chromedriver_path <path_to_chromedriver>
