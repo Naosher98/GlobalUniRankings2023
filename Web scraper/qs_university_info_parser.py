@@ -1,8 +1,14 @@
+# Dependencies
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import pandas as pd
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--chromedriver_path', type=str, help="Check where the Chromedriver is in your PC and share the path")
+args = parser.parse_args()
 
 
 # University Details Extraction Function 
@@ -71,7 +77,7 @@ def page_items(df, driver, i):
     return
 
 def main():
-    webdriver_path = "C:\Program Files (x86)\WebDriver\chromedriver.exe"
+    webdriver_path = args.chromedriver_path
     driver = webdriver.Chrome(webdriver_path)
     df = pd.read_csv("Data\Link.csv")
     

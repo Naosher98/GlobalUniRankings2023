@@ -4,6 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import pandas as pd
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--chromedriver_path', type=str, help="Check where the Chromedriver is in your PC and share the path")
+args = parser.parse_args()
 
 # Informations that are extracted
 columns = ['World Rank','University Name', 'State', 'Country', 'Overall Score', 'Academic Reputation', 'Employer Reputation', 'Citations per Faculty', 'Faculty Students Ratio', 'International Students Ratio', 'International Faculty Ratio', 'International Research Network', 'Employment Outcomes', 'Total students count','UG student % (Domestic)','PG student % (Domestic)','International students count','UG student % (International)','PG student % (International)','Domestic staff %', 'International staff %','Total faculty staff count']
@@ -40,7 +45,7 @@ def get_text_details(row):
 
 def main():
     url = "https://www.topuniversities.com/university-rankings/world-university-rankings/2023"
-    webdriver_path = "C:\Program Files (x86)\WebDriver\chromedriver.exe"
+    webdriver_path = args.chromedriver_path
     driver = webdriver.Chrome(webdriver_path)
     driver.maximize_window()
     time.sleep(3)
