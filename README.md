@@ -27,7 +27,7 @@ The dashboard contains the following analysis:
 6. In South America, the Pontifica Universidade Catolica do Rio de Janeiro in Brazil and the Pontifica Universidad Catolica de Chile (UC) in Chile have the most advanced research facilities.
 7. Among the best universities worldwide (with an overall score greater than 90), ETH Zurich in Switzerland has the lowest Faculty to Student ratio.
 
-## Build from sources:
+## Compile from source code:
 1. Clone the repository:
 ```bash
 git clone https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023.git
