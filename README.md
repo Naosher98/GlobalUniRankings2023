@@ -9,7 +9,7 @@ In order to provide a comprehensive and up-to-date understanding of the leading 
 3. Data visualization and analysis using Tableau Software, a powerful tool for creating interactive data visualizations and dashboards.
 4. Identification of meaningful insights and patterns from the Tableau Dashboard, utilizing advanced analytical techniques to uncover key findings and trends.
 
-## Visualization and Analysis: [Dashboard](https://public.tableau.com/app/profile/naosher.mustakim/viz/Book2_16734310513970/Dashboard1?publish=yes)
+## Visualization and Analysis: [Dashboard](https://public.tableau.com/app/profile/naosher.mustakim/viz/GlobalUniversityRankings2023AComparativeAnalysis/Dashboard1?publish=yes)
 
 The dashboard contains the following analysis:
 1. Ranking the Elite: A Comparative Analysis of the Leading Countries for High-Quality Higher Education.
