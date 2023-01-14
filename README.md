@@ -17,7 +17,7 @@ The dashboard contains the following analysis:
 3. Reputation Matters: A Comparison of Academic and Employer Reputation of Universities Worldwide.
 4. Leading the Research Race: An Analysis of Citations per Faculty Ratio among Universities Worldwide.
 5. Small Class, Big Impact: A Comparative Analysis of Faculty-to-Student Ratios among Universities Worldwide.
-![](https://photos.google.com/search/_tra_/photo/AF1QipMykYVxMW4THm85uKLANgwjEAv3oQMbk9TJmDKZ/edit)
+
 ## Observations and Findings:
 1. In 2023, the United States is considered the top country for higher education, followed by the United Kingdom, China, Australia, Germany, and Canada.
 2. In South America, Argentina is the leading country for higher education, closely followed by Brazil, Chile, Colombia, Uruguay, and Peru.
