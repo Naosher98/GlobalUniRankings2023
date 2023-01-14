@@ -18,6 +18,15 @@ The dashboard contains the following analysis:
 4. Leading the Research Race: An Analysis of Citations per Faculty Ratio among Universities Worldwide.
 5. Small Class, Big Impact: A Comparative Analysis of Faculty-to-Student Ratios among Universities Worldwide.
 
+## Observations and Findings:
+1. In 2023, the United States is considered the top country for higher education, followed by the United Kingdom, China, Australia, Germany, and Canada.
+2. In South America, Argentina is the leading country for higher education, closely followed by Brazil, Chile, Colombia, Uruguay, and Peru.
+3. Harvard University is globally recognized for having the best academic and employer reputation. Universit Paris-Saclay and Institut Polytechnique de Paris in France have exceptional employer reputation, despite having an average academic reputation. These universities are excellent destinations for those seeking job opportunities after completing their degrees while also facing low competition for university entrance.
+4. In South America, the Pontifica Universidad Catolica de Chile (UC) in Chile boasts the highest academic and employer reputation, followed closely by the Universidad de Buenos Aires (UBA) in Argentina. The Universidad de los Andres and Universidad Nacional in Colombia have strong employer reputation, however, have an average academic reputation.
+5. Princeton University, MIT, Caltech, and Harvard University in the USA, the Indian Institute of Science in India, and GIST in South Korea are considered to be among the leading universities in research worldwide.
+6. In South America, the Pontifica Universidade Catolica do Rio de Janeiro in Brazil and the Pontifica Universidad Catolica de Chile (UC) in Chile have the most advanced research facilities.
+7. Among the best universities worldwide (with an overall score greater than 90), ETH Zurich in Switzerland has the lowest Faculty to Student ratio.
+
 ## Build from sources:
 1. Clone the repository:
 ```bash
