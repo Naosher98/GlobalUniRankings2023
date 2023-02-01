@@ -14,11 +14,11 @@ In order to provide a comprehensive and up-to-date understanding of the leading 
 <img src = "Data\Glb_Uni.PNG" width = "900" height = "450">
 </a>
 The dashboard contains the following analysis:
-1. Ranking the Elite: A Comparative Analysis of the Leading Countries for High-Quality Higher Education.
-2. Global Higher Education Landscape: A Comparative Analysis of Regional Variations in Quality and Reputation.
-3. Reputation Matters: A Comparison of Academic and Employer Reputation of Universities Worldwide.
-4. Leading the Research Race: An Analysis of Citations per Faculty Ratio among Universities Worldwide.
-5. Small Class, Big Impact: A Comparative Analysis of Faculty-to-Student Ratios among Universities Worldwide.
+1. Ranking the Elite: A Comparative Analysis of the Leading Countries for High-Quality Higher Education.<br/>
+2. Global Higher Education Landscape: A Comparative Analysis of Regional Variations in Quality and Reputation.<br/>
+3. Reputation Matters: A Comparison of Academic and Employer Reputation of Universities Worldwide.<br/>
+4. Leading the Research Race: An Analysis of Citations per Faculty Ratio among Universities Worldwide.<br/>
+5. Small Class, Big Impact: A Comparative Analysis of Faculty-to-Student Ratios among Universities Worldwide.<br/>
 
 ## Observations and Findings:
 1. In 2023, the United States is considered the top country for higher education, followed by the United Kingdom, China, Australia, Germany, and Canada.
@@ -29,7 +29,7 @@ The dashboard contains the following analysis:
 6. In South America, the Pontifica Universidade Catolica do Rio de Janeiro in Brazil and the Pontifica Universidad Catolica de Chile (UC) in Chile have the most advanced research facilities.
 7. Among the best universities worldwide (with an overall score greater than 90), ETH Zurich in Switzerland has the lowest Faculty to Student ratio.
 
-## Compile from source code:
+## Build from sources:
 1. Clone the repository:
 ```bash
 git clone https://github.com/Naosher98/Global-University-Rankings-2023-A-Comparative-Analysings-2023.git
