@@ -10,7 +10,9 @@ In order to provide a comprehensive and up-to-date understanding of the leading 
 4. Identification of meaningful insights and patterns from the Tableau Dashboard, utilizing advanced analytical techniques to uncover key findings and trends.
 
 ## Visualization and Analysis: [Dashboard](https://public.tableau.com/app/profile/naosher.mustakim/viz/GlobalUniversityRankings2023AComparativeAnalysis/Dashboard1?publish=yes)
-
+<a href="https://public.tableau.com/app/profile/naosher.mustakim/viz/GlobalUniversityRankings2023AComparativeAnalysis/Dashboard1?publish=yes">
+<img src = "Data\Glb_Uni.PNG" width = "900" height = "450">
+</a>
 The dashboard contains the following analysis:
 1. Ranking the Elite: A Comparative Analysis of the Leading Countries for High-Quality Higher Education.
 2. Global Higher Education Landscape: A Comparative Analysis of Regional Variations in Quality and Reputation.
