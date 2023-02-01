@@ -13,7 +13,7 @@ In order to provide a comprehensive and up-to-date understanding of the leading 
 <a href="https://public.tableau.com/app/profile/naosher.mustakim/viz/GlobalUniversityRankings2023AComparativeAnalysis/Dashboard1?publish=yes">
 <img src = "Data\Glb_Uni.PNG" width = "900" height = "450">
 </a>
-The dashboard contains the following analysis:
+The dashboard contains the following analysis:<br/>
 1. Ranking the Elite: A Comparative Analysis of the Leading Countries for High-Quality Higher Education.<br/>
 2. Global Higher Education Landscape: A Comparative Analysis of Regional Variations in Quality and Reputation.<br/>
 3. Reputation Matters: A Comparison of Academic and Employer Reputation of Universities Worldwide.<br/>
